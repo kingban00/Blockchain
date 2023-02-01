@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Re9 12\\Desktop\\Gaveta\\blockchain\\CRUD\\contracts\\CRUD.sol": {
+      "lastModificationDate": 1674674871628,
+      "contentHash": "1bcb22e92ffb91d2737fe3860394d08e",
+      "sourceName": "contracts/CRUD.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.7.3"
+      ],
+      "artifacts": [
+        "Crud"
+      ]
+    },
+    "C:\\wamp64\\www\\projeto\\contracts\\CRUD.sol": {
+      "lastModificationDate": 1675097185624,
+      "contentHash": "97ea8c60f72b603d6fe490f37a9e5897",
+      "sourceName": "contracts/CRUD.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.7.3"
+      ],
+      "artifacts": [
+        "Crud"
+      ]
+    }
+  }
+}
