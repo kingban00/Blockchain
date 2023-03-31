@@ -39,8 +39,10 @@ export async function display() {
   $("#table_body").empty();
   for (let i = 0; i < (await CRUD.read()); i++) {
     let criar = await CRUD.clients(i);
-    console.log("old ----->", await CRUD.clients(i))
-    console.log("<------------------------------>")
+    if (i < await BACKUP.read()) {
+      console.log("old ----->", await BACKUP.clients(i))
+      console.log("<------------------------------>")
+    }
     // console.log(criar);
     $("#table_body").append(`
       <tr>
